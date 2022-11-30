@@ -10,51 +10,50 @@
 </head>
 <body>
     <!-- ARRANCA EL HEADER -->
-    <header>
-        <h1>Siara Estética</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./pages/skincare.html">Skincare</a></li>
-                <li><a href="./pages/turnos.html">Turnos</a></li>
-                <li><a href="./pages/nosotras.html">Nosotras</a></li>
-            </ul>
-        </nav>
+    <header class="navbar navbar-expand-lg rosa">
+        <div class="container">
+            <a class="navbar-brand" href=".">
+                <h1 class="w-25">Siara Estética</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <!-- ACA ME GUSTARIA PONER QUE CADA "A" VAYAN A LA IZQUIERDA PERO AL AGREGAR LA CLASE d-flex justify-content-end SE ME CANCELA EL MENU RESPONSIVE PARA LA RESOLUCIÓN MOBILE, no sé cómo hacer para hacerlo flex end -->
+                <div class="navbar-nav">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="./skincare.html">Skincare</a>
+                    <a class="nav-link" href="./pages/turnos.html">Turnos</a>
+                    <a class="nav-link" href="./pages/nosotras.html">Nosotras</a>
+                </div>
+            </nav>
+        </div>
     </header>
     <!-- EMPIEZA EL MAIN -->
-    <!-- PORTADA DE MASAJES -->
+    <!-- PORTADA -->
     <main>
-        <div>
-            <p>"Texto marketinero que te invita a pedir un turno"</p>
-            <button>Quiero mi turno</button>
+        <div class="portadaindex">
+            <p class="pa">"Texto marketinero que te invita a pedir un turno"</p>
         </div>
-    <div>
-        <section>
-            <article>
-                <h2>TRATAMIENTO MASAJE 1</h2>
-                <p>Pequeña descripción</p>
-                <button>Pedir turno</button>
-            </article>
+        <!-- ACÁ SE PUEDEN VER LOS 3 TRATAMIENTOS QUE OFRECE EL CENTRO DE ESTÉTICA -->
+        <section class="container-fluid">
+            <div class="images row">
+                <article class="col-12 col-md-6 col-lg-4 msj1">
+                    <h2 class="titulotratamiento">TRATAMIENTO MASAJE 1 1</h2>
+                    <button class="boton">VER MÁS</button>
+                </article>
+                <article class="col-12 col-md-6 col-lg-4 msj2">
+                    <h2 class="titulotratamiento">TRATAMIENTO MASAJE 2</h2>
+                    <button class="boton">VER MÁS</button>
+                </article>
+                <article class="col-12 col-md-12 col-lg-4 msj3">
+                    <h2 class="titulotratamiento">TRATAMIENTO MASAJE 3</h2>
+                    <button class="boton">VER MÁS</button>
+                </article>
+            </div>
         </section>
-    </div>
-    <div>
-        <section>
-            <article>
-                <h2>TRATAMIENTO MASAJE 2</h2>
-                <p>Pequeña descripción</p>
-                <button>Pedir turno</button>
-            </article>
-        </section>
-    </div>
-    <div>
-        <section>
-            <article>
-                <h2>TRATAMIENTO MASAJE 3</h2>
-                <p>Pequeña descripción</p>
-                <button>Pedir turno</button>
-            </article>
-        </section>
-    </div>
+    </main>
     <!-- ARRANCA EL FOOTER -->
     <footer>
         <section class="container-fluid">
