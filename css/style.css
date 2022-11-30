@@ -18,11 +18,28 @@
     align-items: flex-start;
 }
 
+.portadamasajes{
+    background-image: url(../img/masajeportada.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .pa{
     font-size: 1.5rem;
     width: 35%;
     padding: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
 }
 
 .skc1{
