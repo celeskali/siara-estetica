@@ -1,6 +1,18 @@
+@import "./base/base";
 
 @import "./utils/variables";
-@import "./utils/mixing";
+@import "./utils/mixins.scss";
 
-@import "./base/base";
+@import "./components/botones";
+@import "./components/descripciones";
+@import "./components/footer";
+@import "./components/galeria";
+@import "./components/header";
+@import "./components/portada";
+
+@import "./pages/index";
+@import "./pages/masajes";
+@import "./pages/nosotras";
+@import "./pages/turnos";
+@import "./pages/skincare";
 
