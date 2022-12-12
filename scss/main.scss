@@ -1,7 +1,11 @@
 @import "./base/base";
 
+//UTILS
+
 @import "./utils/variables";
 @import "./utils/mixins.scss";
+
+//COMPONENTS
 
 @import "./components/botones";
 @import "./components/descripciones";
@@ -9,6 +13,8 @@
 @import "./components/galeria";
 @import "./components/header";
 @import "./components/portada";
+
+//PAGES
 
 @import "./pages/index";
 @import "./pages/masajes";
