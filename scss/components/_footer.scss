@@ -1,38 +1,34 @@
-
-.footer-div {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
-}
+    padding: 40px;
 
-.footer-logo{
-    width: 40vh;
-}
+    &__texto {
+        font-family: $tipografia-general;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.footer-titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-}
+    &__logo {
+        width: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
 
-.footer-texto{
-    font-family: $tipografia-general;
-}
-
-.footer-ul{
-    display: flex;
-    gap: 30px;
-    color: black;
-}
-.footer-li{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-}
-
-.footer-icono{
-    color: black;
-    background-image: url('../');
+    &__redesli {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    &__li{
+        color: black;
+    }
 }

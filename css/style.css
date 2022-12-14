@@ -13,6 +13,8 @@
   font-style: "Merriweather", serif;
   background-color: rgba(157, 129, 137, 0.3647058824);
   border-color: #FFE5D9;
+  text-decoration: none;
+  color: black;
 }
 
 .descripciones {
@@ -21,45 +23,39 @@
   display: flex;
   justify-content: center;
   justify-items: center;
+  text-align: center;
 }
 
-.footer-div {
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 40px;
 }
-
-.footer-logo {
-  width: 40vh;
-}
-
-.footer-titulo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
-}
-
-.footer-texto {
+.footer__texto {
   font-family: "Merriweather", serif;
-}
-
-.footer-ul {
   display: flex;
-  gap: 30px;
-  color: black;
+  justify-content: center;
+  align-items: center;
 }
-
-.footer-li {
+.footer__logo {
+  width: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.footer__redesli {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   list-style: none;
-  display: flex;
-  flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
-
-.footer-icono {
+.footer__li {
   color: black;
-  background-image: url("../");
 }
 
 .trat {
@@ -68,10 +64,6 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 202, 212, 0.5137254902);
-}
-
-.header-siara {
-  width: 50%;
 }
 
 .formturno {
