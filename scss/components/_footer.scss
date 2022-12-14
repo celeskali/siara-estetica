@@ -1,0 +1,38 @@
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer-logo{
+    width: 40vh;
+}
+
+.footer-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footer-texto{
+    font-family: $tipografia-general;
+}
+
+.footer-ul{
+    display: flex;
+    gap: 30px;
+    color: black;
+}
+.footer-li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-icono{
+    color: black;
+    background-image: url('../');
+}

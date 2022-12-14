@@ -1,0 +1,10 @@
+.formturno{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+font-family: $tipografia-general;
+background-color: $color-fondo;
+padding: 3rem;
+}
