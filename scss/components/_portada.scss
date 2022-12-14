@@ -1,2 +1,72 @@
-.index-texto{
+.index-portada{
+    background-image: url(../img/portadaindex.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2rem;
+    font-size: $tamaño-letragrande;
+    font-family: $tipografia-general;
+}
+
+.nosotras-portada{
+    background-image: url(../img/nosotrasportada.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 15rem;
+    font-size: $tamaño-letramediana;
+    font-family: $tipografia-general;
+    text-align: center;
+}
+
+.nosotras-sala{
+    background-image: url(../img/salamasajes.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 10rem;
+    font-size: $tamaño-letramediana;
+    font-family: $tipografia-general;
+    text-align: center;
+}
+
+.masajes-portada{
+    background-image: url(../img/masajeportada.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+    font-size: $tamaño-letragrande;
+    font-family: $tipografia-general;
+}
+
+.skincare-portada{
+    background-image: url(../img/skincareportada.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding-top: 25rem;
+    justify-content: center;
+    align-items: center;
+    font-size: $tamaño-letragrande;
+    font-family: $tipografia-general;
 }

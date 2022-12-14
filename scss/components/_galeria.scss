@@ -1,6 +1,4 @@
-.img{
 
-}
 
 .trat{
     display: flex;
@@ -8,4 +6,96 @@
     justify-content: center;
     align-items: center;
     background-color: $color-fondo;
+}
+
+.galeria-skc1{
+    background-image: url(../img/skincareuno.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: $tamaño-letramediana;
+    font-family: $tipografia-general;
+    color: black;
+    text-align: center;
+}
+
+.galeria-skc2{
+    background-image: url(../img/skincaredos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: $tamaño-letramediana;
+    font-family: $tipografia-general;
+    color: black;
+}
+
+.galeria-skc3{
+    background-image: url(../img/skincaretres.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: $tamaño-letramediana;
+    font-family: $tipografia-general;
+    color: black;
+}
+
+.galeria-msj1{
+    background-image: url(../img/masajeuno.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: $tamaño-letramediana;
+    font-family: $tipografia-general;
+    color: black;
+    text-align: center;
+}
+
+.galeria-msj2{
+    background-image: url(../img/masajedos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: $tamaño-letramediana;
+    font-family: $tipografia-general;
+    color: black;
+}
+
+.galeria-msj3{
+    background-image: url(../img/masajetres.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: $tamaño-letramediana;
+    font-family: $tipografia-general;
+    color: black;
 }
