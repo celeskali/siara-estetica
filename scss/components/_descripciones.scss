@@ -1,8 +1,10 @@
 .descripciones{
-    font-size: $tamaño-letramediana;
-    font-family: $tipografia-general;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
+    &__tratamientos{
+        background-color: $color-fondo;
+        border-radius: 10px;
+        font-size: $tamaño-letrachico;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
 }

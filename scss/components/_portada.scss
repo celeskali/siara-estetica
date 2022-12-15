@@ -60,13 +60,13 @@
 
 .skincare-portada{
     background-image: url(../img/skincareportada.jpg);
-    height: 90vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     display: flex;
-    padding-top: 25rem;
+    padding-top: 15rem;
     justify-content: center;
     align-items: center;
-    font-size: $tamaño-letragrande;
+    font-size: $tamaño-letramediana;
     font-family: $tipografia-general;
 }
